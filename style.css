@@ -77,13 +77,13 @@ nav{margin:0;padding:0.5em;background:steelblue;font-family:"Open Sans",sans-ser
 
 /*footer的样式*/
 
-footer{background:#1b0d00; font-size:;color:#fff; margin:0; padding:0;border-top:solid 4px black;}
+footer{background:; font-size:;color:; margin:0; padding:0;border-top:solid 4px black;}
 #twopoints{ line-height:2em; text-align:center;width:40%; padding:0.5em;}
 #atme{ line-height:1.5em; text-align:center; }
 .footimg{margin:0; }
-.foottable{text-align:center;border:0px solid red;}
-.foottd{border:0px solid red;}
-.foottd-3{border:0px solid red;line-height:0.7em;}
+.foottable{text-align:left;border:0px solid red;}
+/*.foottd{border:1px solid red;}
+.foottd-3{border:0px solid red;line-height:0.7em;}*/
 
 /*blog的样式*/
 .ymd {margin: 1em 1em 0.5em 0;float:left;text-align:center;font-weight: bold; } 

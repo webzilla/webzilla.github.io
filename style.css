@@ -1,0 +1,102 @@
+/*below is common setting background:url(images/background.png) repeat;*/
+body {background:#F6F6F6;font-family:"Open Sans",sans-serif; line-height:1.8em;margin:0 auto;width:100%;max-width:768px;padding:0;}
+a{text-decoration:none; color:steelblue;}
+a:hover{color:#00B4FF;}
+abbr{text-decoration:none;}
+/*ul{margin:0;padding:0.5em 0}*/
+li{margin:0.2em 0.5em;}
+h2{padding:0;text-align:left;}
+img{margin:0 auto;padding:0;border:0;max-width:100%;}
+.nametext{float:left;width:100%;font-size: 1.3em;margin:0.1em auto ;padding:1.5em 0;border:0;text-align:center;font-weight:normal;background:#fff;/*background:lightgreen;text-transform:uppercase;*/}
+.othertext{font-size: 1em;margin:0.2em auto ;padding:0;border:0;text-align:center;font-weight:normal;background:#fff;/*background:lightgreen;text-transform:uppercase;*/}
+.othertext-title{font-size: 1.2em;margin:0.4em auto ;padding:0.5em 1.5em;border:0;text-align:center;font-weight:normal;background:steelblue;color:#000; /*background:lightgreen;text-transform:uppercase;*/}
+.letters-title{font-size: 1em;margin:0.4em auto ;padding:0.5em 1.5em;border:0;text-align:left;font-weight:normal;background:#fff;color:steelblue; /*background:lightgreen;text-transform:uppercase;*/}
+.letters-desc{font-size: 1em;margin:0.4em auto ;padding:0.5em 1.5em;border:0;text-align:left;font-weight:normal;background:#fff;color:black; /*background:lightgreen;text-transform:uppercase;*/}
+/*.leftimg{float:left; max-width:300px; margin:1.5em ; }*/
+.coverimg{margin:0 0 -0.6em 0;}
+blockquote,.blockquote{margin:0.5em 0;padding:1em;background:#82b9ef;color:#1b6dc1}
+audio,video {background:#DBD4B8;}
+legend {float:right}
+.readmore{border:0;background:white;color:steelblue; cursor:pointer;}
+.readmore:hover{color:#00B4FF;}
+.h2number{background:steelblue;padding:0.3em 0.7em;border-radius:20%;color:white}
+
+/*header的样式*/
+
+header{display:block;padding:0;font-family:"Open Sans",sans-serif; color:#fff;margin:0 0 0.2em 0;}
+#siteheader{margin:0;padding:0.5em 0.3em ;text-align:left;background:#f2f2f2;font-weight:normal; }
+#siteheader a{color:steelblue;}
+#slogan {margin:0.5em 0;padding:0 ;text-align:center;font-size:.5em;background:#333;font-weight:bold;}
+.logoand{color:#E34F26;}
+.right{float:right; font-size:0.6em;}
+.typing{  font-size: 2em;  font-family: "Courier New";  margin-bottom: 1.5em;  color: #777;}
+/*文章主体的样式#blog-meta{overflow:auto;background:white; color:#666; margin: 0; padding:0.5em 1em; display:none;}	*/
+article{overflow:auto;background:#F2F2F2; color:#666; margin:0; padding:0; }	
+section{overflow:auto;margin:0;padding:0;border:none;background:#F2F2F2;}
+section h2{border:none; }
+/*section{overflow:auto;margin:0.4em 0;padding:0em 1em;border:solid 1px #D6D2CA;background:white;}*/
+
+
+textarea,input{border:none;background:#EEEEDD;}
+table{margin:0;width:100%;border-collapse:collapse;}
+th{padding:.2em;border:solid lightgray 1px;vertical-align:middle;text-align:left;font-weight:normal;background:#fff;}
+td{padding:.2em;border:solid lightgray 1px;vertical-align:top;}
+.nav_ext_table {border:0}
+
+
+/*特殊样式*/
+/*HTML TAG里的链接不起作用*/
+
+.htmltags a{reference:none}
+
+/*特殊样式，动态下划线*/
+h2 > a {  position: relative;  color: steelblue;  text-decoration: none;  padding-bottom: 5px;}
+h2 > a:hover {  color: #00B4FF;}	
+h2 > a:before {  content: "";  position: absolute;  width: 100%;  height: 2px;  bottom: 0;  left: 0;  background-color: #00B4FF;  visibility: hidden;  -webkit-transform: scaleX(0);  transform: scaleX(0);  -webkit-transition: all 0.3s ease-in-out 0s;  transition: all 0.3s ease-in-out 0s;}
+h2 > a:hover:before {  visibility: visible;  -webkit-transform: scaleX(1);  transform: scaleX(1);}
+
+h1 > a {  position: relative;  color: steelblue;  text-decoration: none;  padding-bottom: 5px;}
+h1 > a:hover {  color: #00B4FF;}	
+h1 > a:before {  content: "";  position: absolute;  width: 100%;  height: 2px;  bottom: 0;  left: 0;  background-color: #00B4FF;  visibility: hidden;  -webkit-transform: scaleX(0);  transform: scaleX(0);  -webkit-transition: all 0.3s ease-in-out 0s;  transition: all 0.3s ease-in-out 0s;}
+h1 > a:hover:before {  visibility: visible;  -webkit-transform: scaleX(1);  transform: scaleX(1);}
+
+/*nav的样式*/
+nav{margin:0;padding:0.5em;background:steelblue;font-family:"Open Sans",sans-serif;  font-weight:bold; color:steelblue;}
+#nav-left{display:inline;margin:0;padding:0;text-align:left;}
+#nav-right{display:inline;margin:0;padding:0;float:right;}
+#nav-left > a {  position: relative;  color: #fff;  text-decoration: none;  padding-bottom: 5px;}
+#nav-left > a:hover {  color: #00B4FF;}	
+#nav-left > a:before {  content: "";  position: absolute;  width: 100%;  height: 2px;  bottom: 0;  left: 0;  background-color: #00B4FF;  visibility: hidden;  -webkit-transform: scaleX(0);  transform: scaleX(0);  -webkit-transition: all 0.3s ease-in-out 0s;  transition: all 0.3s ease-in-out 0s;}
+#nav-left > a:hover:before {  visibility: visible;  -webkit-transform: scaleX(1);  transform: scaleX(1);}
+#nav-right > a {  position: relative;  color: white;  text-decoration: none;  padding-bottom: 5px;}
+#nav-right > a:hover {  color: #00B4FF;}	
+#nav-right > a:before {  content: "";  position: absolute;  width: 100%;  height: 2px;  bottom: 0;  left: 0;  background-color: #00B4FF;  visibility: hidden;  -webkit-transform: scaleX(0);  transform: scaleX(0);  -webkit-transition: all 0.3s ease-in-out 0s;  transition: all 0.3s ease-in-out 0s;}
+#nav-right > a:hover:before {  visibility: visible;  -webkit-transform: scaleX(1);  transform: scaleX(1);}
+.nav_ext{margin:0;padding:0.2em 0.5em ;background:white;font-family:"Open Sans",sans-serif;  font-weight:normal; color:steelblue;}
+
+
+/*footer的样式*/
+
+footer{background:#1b0d00; font-size:;color:#fff; margin:0; padding:0;border-top:solid 4px black;}
+#twopoints{ line-height:2em; text-align:center;width:40%; padding:0.5em;}
+#atme{ line-height:1.5em; text-align:center; }
+.footimg{margin:0; }
+.foottable{text-align:center;border:0px solid red;}
+.foottd{border:0px solid red;}
+.foottd-3{border:0px solid red;line-height:0.7em;}
+
+/*blog的样式*/
+.ymd {margin: 1em 1em 0.5em 0;float:left;text-align:center;font-weight: bold; } 
+.ym {display:block;color: white;background:steelblue;width: 5em;height:1.7em;border:1px solid rgba(0,0,0,0.25); padding:0} 
+.d {display:block;color: steelblue;width: 5em;height: 2.4em;border: 1px solid rgba(0,0,0,0.25); padding:0.7em 0 0 0}
+.jilu{color:steelblue;font-size:1em;line-height:1.3em;}
+.jiluholder{background:#fff;border:none; margin:0.5em 0;padding: 1em;}
+.jilu-simi{visibility:hidden;}/*this is not in use, it is for 私密*/
+.ymtoday {display:block;color: white;background:green;width: 5em;height:1.7em;border:1px solid rgba(0,0,0,0.25); padding:0} 
+.dtoday {display:block;color: green;width: 5em;height: 2.4em;border: 1px solid rgba(0,0,0,0.25); padding:0.7em 0 0 0}
+.jilutoday{color:green;width:65%;height:100%;font-size:1.5em;margin:1em 0 0 0;padding:0.5em}
+.submitbutton{color:steelblue;background:lightgrey;}
+.mimainput{width:4em}
+.lettersblog{background:#fff;border:none; margin:0.5em 0;padding: 0;}
+.lettersblog-detail{color:steelblue;font-size:1em;line-height:1.3em; padding:0.2em 1em}
+.lettersblog-h3{margin:0;padding:0.5em;text-align:left;text-align:left;font-weight:normal;color:#666;background:#fff;border: 0px solid rgba(0,0,0,0.25);border-bottom: 1px solid rgba(0,0,0,0.25);}
